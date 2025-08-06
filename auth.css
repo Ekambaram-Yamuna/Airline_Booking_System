@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 350px;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.auth-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #005fa3;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-container a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    background: #f44336;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
